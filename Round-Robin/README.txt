@@ -13,11 +13,11 @@ Criar um ambiente virtual dentro da pasta raíz do projeto a ser executado.
 	-Linux: raiz do projeto>python3 -m venv venv
 
 Ativar o ambiente virtual.
-	-Windows: raizdoprojeto>cd venv/cd Scripts/activate
-	-Linux: raiz do projeto>d venv/cd bin/activate
+	-Windows: raizdoprojeto>venv\Scripts\activate
+	-Linux: raiz do projeto>cd venv/cd bin/activate
 
 Instalar os pacotes que estão dentro do requirements.txt, com o ambiente virtual habilitado:
-	-Windows: raizdoprojeto>python3 -m pip install -r requirements.txt
+	-Windows: raizdoprojeto>python -m pip install -r requirements.txt
 	-Linux: raiz do projeto>python3 -m pip install -r requirements.txt
 
 Com a virtualenv ativa e as dependências do projeto baixadas você pode executar os seguintes comandos para rodar esta app:
